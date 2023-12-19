@@ -30,7 +30,7 @@ jam.innerHTML = `${hour}:${minutes}`;
 
 // Dirubah
 const pengirim = "Zafaarrrr";
-const nomorWa = "6289668068213"; // awalan nomor 0 harus di awalin 62
+const nomorWa = "6288214367530"; // awalan nomor 0 harus di awalin 62
 const textWa = "Lovee youu";
 const pesan = `In our 4th mensiv ini aku harap semoga kita bisa sama sama teruss, i love so much, even word cannot explain how much i love you. Do you know why I love you? because you deserve getting love and I'm afraid that the one who gives you love is not me but the wrong person. I'm afraid to lose you, Kamu cantikk lucuu dan (aduh kalo aku tulisin semua bakal penuh kali selayar)..CANTIIKK IMUT GEMEESINN, aku masih inget kamu bilang ke aku waktu di bus, kamu bilang mau pake soflens, jujurr aku heran ngapain cobaa kamu pake soflens, padahal mata kamu tu udah cantik banget sayangg, gausahh pake soflenss!!, my gf smile, senyum kamu KENAPA MANIS BEUT SEHH HERAN!!, nanti kalo di semutin gimanaa, itu baru 1, dan yang ke-2 senyum kamu tu bikin candu lucuu , TAPI TAPI ADA TAU YANG LEBIH LUCU DARI SENYUM KAMUU, YAITU EKSPRESI MARAH KAMU😱, walaupun sebenernya kasian marah muluu tapi lucuu, hobby baru aku sekarang bikin kamu marahh WKWK. Thankyou ya sayang udah sama aku terus, thank you so muchh, and I LOVEE YOUU❤`;
 
