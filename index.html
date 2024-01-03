@@ -1,280 +1,633 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <link rel="stylesheet" href="FAV-MUSIC/style.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="shortcut icon" href="avatarwoman.svg" type="image/x-icon">
-     <link rel="stylesheet" href="stye.css">
-     <link rel="stylesheet" href="style.css">
-     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="FAV-MUSIC/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="shortcut icon" href="avatarwoman.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="stye.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Sweetheart</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
-    <link rel="stylesheet" href="css/swiper-bundle.min.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css"
+      rel="stylesheet"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
+  </head>
+  <body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
+    <nav>
+      <div
+        id="up"
+        class="max-w-screen-xl flex flex-wrap items-center mx-auto p-4"
+      >
+        <a href="https://www.instagram.com/doumnsz0/" class="flex items-center">
+          <img src="avatarwoman.svg" class="h-8 mr-3" alt="Logo" />
+          <span
+            class="self-center mr-2 text-2xl font-semibold whitespace-nowrap dark:text-white"
+            >Niha ❤️ <span></span></span></a
+        ><a
+          href="https://www.instagram.com/zfarrrr_/"
+          class="text-2xl mr-24 font-semibold whitespace-nowrap dark:text-white"
+        >
+          Zafar</a
+        >
 
-  <nav>
-    <div id="up" class="max-w-screen-xl flex flex-wrap items-center mx-auto p-4">
-      <a href="https://www.instagram.com/doumnsz0/" class="flex items-center">
-          <img src="avatarwoman.svg" class="h-8 mr-3" alt="Logo">
-          <span class="self-center mr-2 text-2xl font-semibold whitespace-nowrap dark:text-white">Niha ❤️ <span></span></span></a><a href="https://www.instagram.com/zfarrrr_/" class="text-2xl mr-28 font-semibold whitespace-nowrap dark:text-white"> Zafar</a>
-      
-      <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+        <button
+          data-collapse-toggle="navbar-default"
+          type="button"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          aria-controls="navbar-default"
+          aria-expanded="false"
+        >
           <span class="sr-only">Open main menu</span>
-          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"></path>
+          <svg
+            class="w-5 h-5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 17 14"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15"
+            ></path>
           </svg>
-      </button>
-      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-        <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
-          <li>
-            <a href="https://instagram.com/zfarrrr_?igshid=OGQ5ZDc2ODk2ZA==" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Lover ❤️</a>
-          </li>
-          <li>
-            <a href="gallery.html" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Chapter 3: Belongs to me🌹💕</a>
-          </li>
-          <li>
-            <a href="mensiv4.html" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Chapter 4: love and happinest🌸💘</a>
-          </li>
-          <li>
-            <a href="#poster" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Poster</a>
-          </li>
-          <li>
-            <a href="#music" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Music</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  
-  <div id="home" class="page4">
-    <h1 class="mb-4 text-4xl font-medium text-center tracking-tight leading-none text-white md:text-5xl lg:text-2xl dark:text-white">Our World</h1>
-
-    
-
-
-<h2 id="manips" class="text-2xl">Our Love Moment</h2>
-
-<div class="grid grid-cols-2 md:grid-cols-4 md:px-20 gap-4 ">
-  <div class="grid gap-4">
-      
-      <div class="picture">
-          <img class="h-auto max-w-full rounded-lg" src="Memo/21.jpg" alt="">
-          <i class="fa" title="Love U"></i>
-
-      </div>
-      <div class="picture">
-          <img class="h-auto max-w-full rounded-lg" src="Memo/3.jpg" alt="">
-          <i class="fa" title="Love U"></i>
-      </div>
-  </div>
-  <div class="grid gap-4">
-      <div class="picture">
-          <img class="h-auto max-w-full rounded-lg" src="Memo/4.jpg" alt="">
-          <i class="fa" title="Love U"></i>
-      </div>
-      
-      <div class="picture">
-          <img class="h-auto max-w-full rounded-lg" src="Memo/6.jpg" alt="">
-          <i class="fa" title="Love U"></i>
-      </div>
-  </div>
-  
-  <div class="grid gap-4">
-      <div class="picture">
-          <img class="h-auto w-full rounded-lg" src="Memo/10.jpg" alt="">
-          <i class="fa" title="Love U"></i>
-      </div>
-      <div class="picture">
-          <img class="h-auto w-full rounded-lg" src="Memo/11.jpg" alt="">
-          <i class="fa" title="Love U"></i>
-      </div>
-      <div class="picture">
-          <img class="h-auto w-full rounded-lg" src="Memo/12.jpg" alt="">
-          <i class="fa" title="Love U"></i>
-      </div>
-  </div>
-    <div class="grid gap-4">
-      <div class="picture">
-          <img class="h-auto w-full rounded-lg" src="Memo/13.jpg" alt="">
-          <i class="fa" title="Love U"></i>
-      </div>
-      <div class="picture">
-          <img class="h-auto w-full rounded-lg" src="Memo/14.jpg" alt="">
-          <i class="fa" title="Love U"></i>
-      </div>
-      <div class="picture">
-          <img class="h-auto w-full rounded-lg" src="Memo/15.jpg" alt="">
-          <i class="fa" title="Love U"></i>
-      </div>
-  </div>
-    <div class="grid">
-      
-      
-      <div class="picture">
-          <img class="h-auto w-full rounded-lg" src="Memo/18.jpg" alt="">
-          <i class="fa" title="Love U"></i>
-      <div class="picture">
-          <img class="h-auto w-full rounded-lg" src="Memo/22.jpg" alt="">
-          <i class="fa" title="Love U"></i>
-      </div></div>      
-  </div>
-    <div class="grid gap-3">
-      <div class="picture">
-          <img class="h-auto w-full rounded-lg" src="Memo/19.jpg" alt="">
-          <i class="fa" title="Love U"></i>
-      </div>
-      <div class="picture">
-          <img class="h-auto w-full rounded-lg" src="Memo/20.jpg" alt="">
-          <i class="fa" title="Love U"></i>
-      </div>
-            
-  </div>
-    <div class="grid gap-4">
-      
-      
-            
-  </div>
-</div>
-
-<h2 id="poster" class="mt-10 text-2xl">Artwork Poster</h2>
-<div class="picture">
-<img class="m-auto" src="img/poster.png" alt="Gambar 1">
-<i class="fa" title="Reputation"></i>
-</div>
-
-
- 
-<div class="pembungkus-music">
-  <h1 class="mb-4 text-2xl font-medium text-center tracking-tight leading-none text-gray-900 md:text-5xl lg:text-2xl dark:text-white aos-init aos-animate" id="music" data-aos="fade-up" data-aos-duration="600" data-aos-offset="150">NIHA'S MOOD</h1>
-<div class="container-fav-music aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" data-aos-offset="360">
-  <div class="wrapper">
-    <div class="top-bar">
-      <i class="material-icons">expand_more</i>
-      <span>NIHA'S FAV MUSIC</span>
-      <i class="material-icons">more_horiz</i>
-    </div>
-    <div class="img-area">
-      <img src="images/loocked.jpg" alt="">
-    </div>
-    <div class="song-details">
-      <p class="name">Looked Away ft. Adam Levine</p>
-      <p class="artist">R. City</p>
-    </div>
-    <div class="progress-area">
-      <div class="progress-bar">
-        <audio id="main-audio" src="songs/loocked.mp3"></audio>
-      </div>
-      <div class="song-timer">
-        <span class="current-time">0:00</span>
-        <span class="max-duration">3:46</span>
-      </div>
-    </div>
-    <div class="controls">
-      <i id="repeat-plist" class="material-icons" title="Playlist looped">repeat</i>
-      <i id="prev" class="material-icons">skip_previous</i>
-      <div class="play-pause">
-        <i class="material-icons play">play_arrow</i>
-      </div>
-      <i id="next" class="material-icons">skip_next</i>
-      <i id="more-music" class="material-icons">queue_music</i>
-    </div>
-    <div class="music-list">
-      <div class="header">
-        <div class="row">
-          <i class="list material-icons">queue_music</i>
-          <span>Music list</span>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+          <ul
+            class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0"
+          >
+            <li>
+              <a
+                href="https://instagram.com/zfarrrr_?igshid=OGQ5ZDc2ODk2ZA=="
+                class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                aria-current="page"
+                >Lover ❤️</a
+              >
+            </li>
+            <li>
+              <a
+                href="gallery.html"
+                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >Chapter 3: Belongs to me🌹💕</a
+              >
+            </li>
+            <li>
+              <a
+                href="mensiv4.html"
+                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >Chapter 4: love and happinest🌸💘</a
+              >
+            </li>
+            <li>
+              <a
+                href="#poster"
+                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >Poster</a
+              >
+            </li>
+            <li>
+              <a
+                href="#music"
+                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >Music</a
+              >
+            </li>
+          </ul>
         </div>
-        <i id="close" class="material-icons">close</i>
       </div>
-      <ul>
-        <!-- here li list are coming from js -->
-      <li li-index="1" onclick="clicked(this)">
+    </nav>
+
+    <div id="home" class="page4">
+      <h1
+        class="mb-4 text-4xl font-medium text-center tracking-tight leading-none text-white md:text-5xl lg:text-2xl dark:text-white"
+      >
+        Our World
+      </h1>
+
+      <h2 id="manips" class="text-2xl">Our Love Moment</h2>
+
+      <div class="grid grid-cols-2 md:grid-cols-4 md:px-20 gap-4">
+        <div class="grid gap-4">
+          <div class="picture">
+            <div class="picture">
+              <img
+                class="h-auto max-w-full rounded-lg"
+                src="Memo/1.jpg"
+                alt=""
+              />
+              <i class="fa" title="Love U"></i>
+            </div>
+            <img
+              class="h-auto max-w-full rounded-lg"
+              src="Memo/21.jpg"
+              alt=""
+            />
+            <i class="fa" title="Love U"></i>
+          </div>
+          <div class="picture">
+            <img class="h-auto max-w-full rounded-lg" src="Memo/3.jpg" alt="" />
+            <i class="fa" title="Love U"></i>
+          </div>
+        </div>
+        <div class="grid gap-4">
+          <div class="picture">
+            <img class="h-auto max-w-full rounded-lg" src="Memo/4.jpg" alt="" />
+            <i class="fa" title="Love U"></i>
+          </div>
+
+          <div class="picture">
+            <img class="h-auto max-w-full rounded-lg" src="Memo/6.jpg" alt="" />
+            <i class="fa" title="Love U"></i>
+          </div>
+        </div>
+
+        <div class="grid gap-4">
+          <div class="picture">
+            <img class="h-auto w-full rounded-lg" src="Memo/10.jpg" alt="" />
+            <i class="fa" title="Love U"></i>
+          </div>
+          <div class="picture">
+            <img class="h-auto w-full rounded-lg" src="Memo/11.jpg" alt="" />
+            <i class="fa" title="Love U"></i>
+          </div>
+          <div class="picture">
+            <img class="h-auto w-full rounded-lg" src="Memo/12.jpg" alt="" />
+            <i class="fa" title="Love U"></i>
+          </div>
+        </div>
+        <div class="grid gap-4">
+          <div class="picture">
+            <img class="h-auto w-full rounded-lg" src="Memo/13.jpg" alt="" />
+            <i class="fa" title="Love U"></i>
+          </div>
+          <div class="picture">
+            <img class="h-auto w-full rounded-lg" src="Memo/14.jpg" alt="" />
+            <i class="fa" title="Love U"></i>
+          </div>
+          <div class="picture">
+            <img class="h-auto w-full rounded-lg" src="Memo/15.jpg" alt="" />
+            <i class="fa" title="Love U"></i>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="picture">
+            <img class="h-auto w-full rounded-lg" src="Memo/18.jpg" alt="" />
+            <i class="fa" title="Love U"></i>
+            <div class="picture">
+              <img class="h-auto w-full rounded-lg" src="Memo/22.jpg" alt="" />
+              <i class="fa" title="Love U"></i>
+            </div>
+          </div>
+        </div>
+        <div class="grid gap-3">
+          <div class="picture">
+            <img class="h-auto w-full rounded-lg" src="Memo/19.jpg" alt="" />
+            <i class="fa" title="Love U"></i>
+          </div>
+          <div class="picture">
+            <img class="h-auto w-full rounded-lg" src="Memo/20.jpg" alt="" />
+            <i class="fa" title="Love U"></i>
+          </div>
+        </div>
+        <div class="grid gap-4"></div>
+      </div>
+
+      <h2 id="poster" class="mt-10 text-2xl">I Love You</h2>
+
+      <div id="default-carousel" class="relative w-full" data-carousel="slide">
+        <!-- Carousel wrapper -->
+        <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+          <!-- Item 1 --
+          <!-- Item 2 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img
+              src="Memo/2.jpg"
+              class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              alt="..."
+            />
+          </div>
+          <!-- Item 3 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img
+              src="Memo/5.jpg"
+              class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              alt="..."
+            />
+          </div>
+          <!-- Item 4 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img
+              src="Memo/7.jpg"
+              class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              alt="..."
+            />
+          </div>
+          <!-- Item 5 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img
+              src="Memo/8.jpg"
+              class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              alt="..."
+            />
+          </div>
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img
+              src="Memo/9.jpg"
+              class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              alt="..."
+            />
+          </div>
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img
+              src="Memo/16.jpg"
+              class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              alt="..."
+            />
+          </div>
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img
+              src="Memo/17.jpg"
+              class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              alt="..."
+            />
+          </div>
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img
+              src="Memo/23.jpg"
+              class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              alt="..."
+            />
+          </div>
+        </div>
+        <!-- Slider indicators -->
+        <div
+          class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse"
+        >
+          <button
+            type="button"
+            class="w-3 h-3 rounded-full"
+            aria-current="true"
+            aria-label="Slide 1"
+            data-carousel-slide-to="0"
+          ></button>
+          <button
+            type="button"
+            class="w-3 h-3 rounded-full"
+            aria-current="false"
+            aria-label="Slide 2"
+            data-carousel-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            class="w-3 h-3 rounded-full"
+            aria-current="false"
+            aria-label="Slide 3"
+            data-carousel-slide-to="2"
+          ></button>
+          <button
+            type="button"
+            class="w-3 h-3 rounded-full"
+            aria-current="false"
+            aria-label="Slide 4"
+            data-carousel-slide-to="3"
+          ></button>
+          <button
+            type="button"
+            class="w-3 h-3 rounded-full"
+            aria-current="false"
+            aria-label="Slide 5"
+            data-carousel-slide-to="4"
+          ></button>
+          <button
+            type="button"
+            class="w-3 h-3 rounded-full"
+            aria-current="true"
+            aria-label="Slide 6"
+            data-carousel-slide-to="5"
+          ></button>
+          <button
+            type="button"
+            class="w-3 h-3 rounded-full"
+            aria-current="false"
+            aria-label="Slide 7"
+            data-carousel-slide-to="6"
+          ></button>
+          <button
+            type="button"
+            class="w-3 h-3 rounded-full"
+            aria-current="false"
+            aria-label="Slide 8"
+            data-carousel-slide-to="7"
+          ></button>
+          <button
+            type="button"
+            class="w-3 h-3 rounded-full"
+            aria-current="false"
+            aria-label="Slide 9"
+            data-carousel-slide-to="8"
+          ></button>
+          <button
+            type="button"
+            class="w-3 h-3 rounded-full"
+            aria-current="false"
+            aria-label="Slide 10"
+            data-carousel-slide-to="9"
+          ></button>
+        </div>
+        <!-- Slider controls -->
+        <button
+          type="button"
+          class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+          data-carousel-prev
+        >
+          <span
+            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+          >
+            <svg
+              class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 6 10"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M5 1 1 5l4 4"
+              />
+            </svg>
+            <span class="sr-only">Previous</span>
+          </span>
+        </button>
+        <button
+          type="button"
+          class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+          data-carousel-next
+        >
+          <span
+            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+          >
+            <svg
+              class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 6 10"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="m1 9 4-4-4-4"
+              />
+            </svg>
+            <span class="sr-only">Next</span>
+          </span>
+        </button>
+      </div>
+
+      <div class="pembungkus-music">
+        <h1
+          class="mb-4 text-2xl font-medium text-center tracking-tight leading-none text-gray-900 md:text-5xl lg:text-2xl dark:text-white aos-init aos-animate"
+          id="music"
+          data-aos="fade-up"
+          data-aos-duration="600"
+          data-aos-offset="150"
+        >
+          NIHA'S MOOD
+        </h1>
+        <div
+          class="container-fav-music aos-init aos-animate"
+          data-aos="fade-up"
+          data-aos-duration="600"
+          data-aos-offset="360"
+        >
+          <div class="wrapper">
+            <div class="top-bar">
+              <i class="material-icons">expand_more</i>
+              <span>NIHA'S FAV MUSIC</span>
+              <i class="material-icons">more_horiz</i>
+            </div>
+            <div class="img-area">
+              <img src="images/loocked.jpg" alt="" />
+            </div>
+            <div class="song-details">
+              <p class="name">Looked Away ft. Adam Levine</p>
+              <p class="artist">R. City</p>
+            </div>
+            <div class="progress-area">
+              <div class="progress-bar">
+                <audio id="main-audio" src="songs/loocked.mp3"></audio>
+              </div>
+              <div class="song-timer">
+                <span class="current-time">0:00</span>
+                <span class="max-duration">3:46</span>
+              </div>
+            </div>
+            <div class="controls">
+              <i
+                id="repeat-plist"
+                class="material-icons"
+                title="Playlist looped"
+                >repeat</i
+              >
+              <i id="prev" class="material-icons">skip_previous</i>
+              <div class="play-pause">
+                <i class="material-icons play">play_arrow</i>
+              </div>
+              <i id="next" class="material-icons">skip_next</i>
+              <i id="more-music" class="material-icons">queue_music</i>
+            </div>
+            <div class="music-list">
+              <div class="header">
                 <div class="row">
-                  <span>This Love(Taylor's Version)</span>
-                  <p>Taylor Swift</p>
+                  <i class="list material-icons">queue_music</i>
+                  <span>Music list</span>
                 </div>
-                <span id="thislove" class="audio-duration" t-duration="4:10">4:10</span>
-                <audio class="thislove" src="songs/thislove.mp3"></audio>
-              </li><li li-index="2" onclick="clicked(this)">
-                <div class="row">
-                  <span>Love Me</span>
-                  <p>RealestK</p>
-                </div>
-                <span id="loveme" class="audio-duration" t-duration="3:28">3:28</span>
-                <audio class="loveme" src="songs/loveme.mp3"></audio>
-              </li><li li-index="3" onclick="clicked(this)">
-                <div class="row">
-                  <span>Lover</span>
-                  <p>Taylor Swift</p>
-                </div>
-                <span id="lover" class="audio-duration" t-duration="3:40">3:40</span>
-                <audio class="lover" src="songs/lover.mp3"></audio>
-              </li><li li-index="4" onclick="clicked(this)">
-                <div class="row">
-                  <span>Enchanted(Taylor's Version)</span>
-                  <p>Taylor Swift</p>
-                </div>
-                <span id="enchanted" class="audio-duration" t-duration="5:58">5:58</span>
-                <audio class="enchanted" src="songs/enchanted.mp3"></audio>
-              </li><li li-index="5" onclick="clicked(this)">
-                <div class="row">
-                  <span>Swim</span>
-                  <p>Chase Atlantic</p>
-                </div>
-                <span id="swim" class="audio-duration" t-duration="3:49">3:49</span>
-                <audio class="swim" src="songs/swim.mp3"></audio>
-              </li><li li-index="6" class="playing" onclick="clicked(this)">
-                <div class="row">
-                  <span>Looked Away ft. Adam Levine</span>
-                  <p>R. City</p>
-                </div>
-                <span id="loocked" class="audio-duration" t-duration="3:46">Playing</span>
-                <audio class="loocked" src="songs/loocked.mp3"></audio>
-              </li></ul>
+                <i id="close" class="material-icons">close</i>
+              </div>
+              <ul>
+                <!-- here li list are coming from js -->
+                <li li-index="1" onclick="clicked(this)">
+                  <div class="row">
+                    <span>This Love(Taylor's Version)</span>
+                    <p>Taylor Swift</p>
+                  </div>
+                  <span id="thislove" class="audio-duration" t-duration="4:10"
+                    >4:10</span
+                  >
+                  <audio class="thislove" src="songs/thislove.mp3"></audio>
+                </li>
+                <li li-index="2" onclick="clicked(this)">
+                  <div class="row">
+                    <span>Love Me</span>
+                    <p>RealestK</p>
+                  </div>
+                  <span id="loveme" class="audio-duration" t-duration="3:28"
+                    >3:28</span
+                  >
+                  <audio class="loveme" src="songs/loveme.mp3"></audio>
+                </li>
+                <li li-index="3" onclick="clicked(this)">
+                  <div class="row">
+                    <span>Lover</span>
+                    <p>Taylor Swift</p>
+                  </div>
+                  <span id="lover" class="audio-duration" t-duration="3:40"
+                    >3:40</span
+                  >
+                  <audio class="lover" src="songs/lover.mp3"></audio>
+                </li>
+                <li li-index="4" onclick="clicked(this)">
+                  <div class="row">
+                    <span>Enchanted(Taylor's Version)</span>
+                    <p>Taylor Swift</p>
+                  </div>
+                  <span id="enchanted" class="audio-duration" t-duration="5:58"
+                    >5:58</span
+                  >
+                  <audio class="enchanted" src="songs/enchanted.mp3"></audio>
+                </li>
+                <li li-index="5" onclick="clicked(this)">
+                  <div class="row">
+                    <span>Swim</span>
+                    <p>Chase Atlantic</p>
+                  </div>
+                  <span id="swim" class="audio-duration" t-duration="3:49"
+                    >3:49</span
+                  >
+                  <audio class="swim" src="songs/swim.mp3"></audio>
+                </li>
+                <li li-index="6" class="playing" onclick="clicked(this)">
+                  <div class="row">
+                    <span>Looked Away ft. Adam Levine</span>
+                    <p>R. City</p>
+                  </div>
+                  <span id="loocked" class="audio-duration" t-duration="3:46"
+                    >Playing</span
+                  >
+                  <audio class="loocked" src="songs/loocked.mp3"></audio>
+                </li>
+                <li li-index="1" onclick="clicked(this)">
+                  <div class="row">
+                    <span>This Love(Taylor's Version)</span>
+                    <p>Taylor Swift</p>
+                  </div>
+                  <span id="thislove" class="audio-duration">3:40</span>
+                  <audio class="thislove" src="songs/thislove.mp3"></audio>
+                </li>
+                <li li-index="2" onclick="clicked(this)">
+                  <div class="row">
+                    <span>Love Me</span>
+                    <p>RealestK</p>
+                  </div>
+                  <span id="loveme" class="audio-duration">3:40</span>
+                  <audio class="loveme" src="songs/loveme.mp3"></audio>
+                </li>
+                <li li-index="3" onclick="clicked(this)">
+                  <div class="row">
+                    <span>Lover</span>
+                    <p>Taylor Swift</p>
+                  </div>
+                  <span id="lover" class="audio-duration">3:40</span>
+                  <audio class="lover" src="songs/lover.mp3"></audio>
+                </li>
+                <li li-index="4" onclick="clicked(this)">
+                  <div class="row">
+                    <span>Enchanted(Taylor's Version)</span>
+                    <p>Taylor Swift</p>
+                  </div>
+                  <span id="enchanted" class="audio-duration">3:40</span>
+                  <audio class="enchanted" src="songs/enchanted.mp3"></audio>
+                </li>
+                <li li-index="5" onclick="clicked(this)">
+                  <div class="row">
+                    <span>Swim</span>
+                    <p>Chase Atlantic</p>
+                  </div>
+                  <span id="swim" class="audio-duration">3:40</span>
+                  <audio class="swim" src="songs/swim.mp3"></audio>
+                </li>
+                <li li-index="6" class="playing" onclick="clicked(this)">
+                  <div class="row">
+                    <span>Looked Away ft. Adam Levine</span>
+                    <p>R. City</p>
+                  </div>
+                  <span id="loocked" class="audio-duration">Playing</span>
+                  <audio class="loocked" src="songs/loocked.mp3"></audio>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8 items-center">
+          <div class="sm:flex sm:items-center justify-center mb-2">
+            <a
+              href="https://www.instagram.com/eunoiiha/"
+              class="flex items-center mb-4 sm:mb-0"
+            >
+              <img src="avatarwoman.svg" class="h-8 mr-3" />
+              <div
+                class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white md:m-auto md:text-center items-center"
+              >
+                Niha Safwarni Tanzila
+              </div>
+            </a>
+          </div>
+          <hr
+            class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"
+          />
+          <span
+            class="block text-sm text-center sm:text-center dark:text-gray-400"
+            ><a
+              href="https://open.spotify.com/user/i6afqs41i7tgzgvok7jwfkm0r?si=5prXo0oaT8C8VB1lukO1ag&amp;utm_source=copy-link&amp;utm_medium=copy-link&amp;nd=1&amp;_branch_match_id=1225967273938077904&amp;_branch_referrer=H4sIAAAAAAAAA8soKSkottLXLy7IL8lMq9TLyczL1jesqPQvyPI3y3VJAgAYbXUIIAAAAA%3D%3D"
+              class="hover:underline"
+              >© Spotify Taste</a
+            ><a href="#up">. Go up</a></span
+          >
+        </div>
+      </footer>
+
+      <script src="script.js"></script>
+      <script src="js/s.js"></script>
+      <!-- Swiper JS -->
+      <script src="js/swiper-bundle.min.js"></script>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init({
+          once: true,
+        });
+      </script>
+      <script src="FAV-MUSIC/js/music-list.js"></script>
+      <script src="FAV-MUSIC/js/script.js"></script>
     </div>
-  </div>
-</div>
-</div>
-<footer>
-  <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8 items-center">
-      <div class="sm:flex sm:items-center justify-center mb-2">
-          <a href="https://www.instagram.com/eunoiiha/" class="flex items-center mb-4 sm:mb-0">
-              <img src="avatarwoman.svg" class="h-8 mr-3">
-              <div class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white md:m-auto md:text-center items-center">Niha Safwarni Tanzila</div>
-          </a>
-      </div>
-      <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8">
-      <span class="block text-sm text-center sm:text-center dark:text-gray-400"><a href="https://open.spotify.com/user/i6afqs41i7tgzgvok7jwfkm0r?si=5prXo0oaT8C8VB1lukO1ag&amp;utm_source=copy-link&amp;utm_medium=copy-link&amp;nd=1&amp;_branch_match_id=1225967273938077904&amp;_branch_referrer=H4sIAAAAAAAAA8soKSkottLXLy7IL8lMq9TLyczL1jesqPQvyPI3y3VJAgAYbXUIIAAAAA%3D%3D" class="hover:underline">© Spotify Taste</a><a href="#up">. Go up</a></span>
-  </div>
-</footer>
-
-    <script src="script.js"></script>
-    <script src="js/s.js"></script>
-  <!-- Swiper JS -->
-    <script src="js/swiper-bundle.min.js"></script>
-
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init({
-   once: true, 
-});
-  </script>
-    <script src="FAV-MUSIC/js/music-list.js"></script>
-    <script src="FAV-MUSIC/js/script.js"></script>
-
-
-</div>
-</body>
+  </body>
 </html>
