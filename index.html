@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="FAV-MUSIC/style.css" />
+    <link rel="stylesheet" href="style2.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -14,6 +15,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Sweetheart</title>
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
@@ -95,20 +100,6 @@
                 href="mensiv4.html"
                 class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >Chapter 4: love and happinest🌸💘</a
-              >
-            </li>
-            <li>
-              <a
-                href="#poster"
-                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                >Poster</a
-              >
-            </li>
-            <li>
-              <a
-                href="#music"
-                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                >Music</a
               >
             </li>
           </ul>
@@ -408,9 +399,65 @@
         </button>
       </div>
 
+      <h1
+        class="mb-4 mt-20 text-2xl font-medium text-center tracking-tight leading-none text-gray-900 md:text-5xl lg:text-2xl dark:text-white aos-init aos-animate"
+        id="music"
+        data-aos="fade-up"
+        data-aos-duration="600"
+        data-aos-offset="150"
+      >
+        VLOG
+      </h1>
+      <section>
+        <div class="container">
+          <div class="main-video">
+            <video src="videos/button.mp4" autoplay muted controls></video>
+            <i class="bx bx-x close"></i>
+          </div>
+          <div class="videos">
+            <video src="videos/vid1.mp4"></video>
+            <i class="bx bx-play-circle"></i>
+          </div>
+          <div class="videos">
+            <video src="videos/vid2.mp4"></video>
+            <i class="bx bx-play-circle"></i>
+          </div>
+          <div class="videos">
+            <video src="videos/vid3.mp4"></video>
+            <i class="bx bx-play-circle"></i>
+          </div>
+          <div class="videos">
+            <video src="videos/vid4.mp4"></video>
+            <i class="bx bx-play-circle"></i>
+          </div>
+        </div>
+      </section>
+
+      <script>
+        const section = document.querySelector("section"),
+          mainVideo = document.querySelector(".main-video video"),
+          videos = document.querySelectorAll(".videos"),
+          close = document.querySelector(".close");
+
+        for (var i = 0; i < videos.length; i++) {
+          videos[i].addEventListener("click", (e) => {
+            const target = e.target;
+            section.classList.add("active");
+            target.classList.add("active");
+            let src = document.querySelector(".videos.active video").src;
+            mainVideo.src = src;
+
+            close.addEventListener("click", () => {
+              section.classList.remove("active");
+              target.classList.remove("active");
+              mainVideo.src = "";
+            });
+          });
+        }
+      </script>
       <div class="pembungkus-music">
         <h1
-          class="mb-4 text-2xl font-medium text-center tracking-tight leading-none text-gray-900 md:text-5xl lg:text-2xl dark:text-white aos-init aos-animate"
+          class="mb-4 mt-12 text-2xl font-medium text-center tracking-tight leading-none text-gray-900 md:text-5xl lg:text-2xl dark:text-white aos-init aos-animate"
           id="music"
           data-aos="fade-up"
           data-aos-duration="600"
